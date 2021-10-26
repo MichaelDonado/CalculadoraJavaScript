@@ -3,10 +3,10 @@ const botonOpera = document.getElementsByName('data-opera');
 const botonIgual = document.getElementsByName('data-igual')[0];
 const botonDelete = document.getElementsByName('data-delete')[0];
 
-var result = document.getElementById('result');
-var opeActual = '';
-var opeAnterior = '';
-var operacion;
+let result = document.getElementById('result');
+let opeActual = '';
+let opeAnterior = '';
+let operacion;
 
 botonNumeros.forEach(function(boton){
     boton.addEventListener('click', function(){
